@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!--
+
+/**
+ * MageModal admin, ACL configuration.
+ *
+ * PHP Version 5
+ *
+ * @package   Vbuck_MageModal
+ * @author    Rick Buczynski <me@rickbuczynski.com>
+ * @copyright 2015 Rick Buczynski
+ */
+
+-->
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <magemodal translate="title" module="magemodal">
+                                        <title><![CDATA[MageModal Extension]]></title>
+                                    </magemodal>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

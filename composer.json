@@ -1,0 +1,16 @@
+{
+    "name"          : "vbuck/mage-modal",
+    "type"          : "magento-module",
+    "license"       : "MIT",
+    "homepage"      : "http://www.rickbuczynski.com/",
+    "description"   : "A modal drop-in module for admin and frontend Magento development.",
+    "authors": [
+        {
+            "name"  : "Rick Buczynski",
+            "email" : "me@rickbuczynski.com"
+        }
+    ],
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<!--
+
+/**
+ * MageModal module configuration.
+ *
+ * PHP Version 5
+ *
+ * @package   Vbuck_MageModal
+ * @author    Rick Buczynski <me@rickbuczynski.com>
+ * @copyright 2015 Rick Buczynski
+ */
+
+-->
+<config>
+    <modules>
+        <Vbuck_MageModal>
+            <version>1.0.0</version>
+        </Vbuck_MageModal>
+    </modules>
+    <default>
+        <dev>
+            <magemodal>
+                <enable_admin>1</enable_admin>
+                <enable_frontend>0</enable_frontend>
+            </magemodal>
+        </dev>
+    </default>
+    <global>
+        <helpers>
+            <magemodal>
+                <class>Vbuck_MageModal_Helper</class>
+            </magemodal>
+        </helpers>
+        <blocks>
+            <magemodal>
+                <class>Vbuck_MageModal_Block</class>
+            </magemodal>
+        </blocks>
+    </global>
+    <adminhtml>
+        <layout>
+            <updates>
+                <magemodal>
+                    <file>magemodal.xml</file>
+                </magemodal>
+            </updates>
+        </layout>
+        <translate>
+            <modules>
+                <magemodal>
+                    <files>
+                        <default>Vbuck_MageModal.csv</default>
+                    </files>
+                </magemodal>
+            </modules>
+        </translate>
+    </adminhtml>
+    <frontend>
+        <layout>
+            <updates>
+                <magemodal>
+                    <file>magemodal.xml</file>
+                </magemodal>
+            </updates>
+        </layout>
+    </frontend>
+</config>

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!--
+
+/**
+ * MageModal admin layout updates.
+ *
+ * PHP Version 5
+ *
+ * @package   Vbuck_MageModal
+ * @author    Rick Buczynski <me@rickbuczynski.com>
+ * @copyright 2015 Rick Buczynski
+ */
+
+-->
+<layout>
+    <default>
+        <reference name="head">
+            <action method="addCss" ifconfig="dev/magemodal/enable_admin">
+                <stylesheet>magemodal/theme.css</stylesheet>
+            </action>
+            <action method="addJs" ifconfig="dev/magemodal/enable_admin">
+                <script>magemodal/core.js</script>
+            </action>
+        </reference>
+    </default>
+</layout>

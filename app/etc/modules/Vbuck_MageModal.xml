@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!--
+
+/**
+ * MageModal module declaration.
+ *
+ * PHP Version 5
+ *
+ * @package   Vbuck_MageModal
+ * @author    Rick Buczynski <me@rickbuczynski.com>
+ * @copyright 2015 Rick Buczynski
+ */
+
+-->
+<config>
+    <modules>
+        <Vbuck_MageModal>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Vbuck_MageModal>
+    </modules>
+</config>

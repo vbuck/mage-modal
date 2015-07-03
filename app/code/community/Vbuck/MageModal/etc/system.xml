@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<!--
+
+/**
+ * MageModal module system configuration.
+ *
+ * PHP Version 5
+ *
+ * @package   Vbuck_MageModal
+ * @author    Rick Buczynski <me@rickbuczynski.com>
+ * @copyright 2015 Rick Buczynski
+ */
+
+-->
+<config>
+    <sections>
+        <dev>
+            <groups>
+                <magemodal translate="label" module="magemodal">
+                    <label><![CDATA[MageModal Settings]]></label>
+                    <sort_order>250</sort_order>
+                    <frontend_type>text</frontend_type>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <enable_admin translate="label">
+                            <label><![CDATA[Enabled: Admin]]></label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>5</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </enable_admin>
+                        <enable_frontend translate="label">
+                            <label><![CDATA[Enabled: Frontend]]></label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </enable_frontend>
+                    </fields>
+                </magemodal>
+            </groups>
+        </dev>
+    </sections>
+</config>
